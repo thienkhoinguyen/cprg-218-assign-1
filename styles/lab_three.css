@@ -1,0 +1,15 @@
+img {
+    border-bottom: 0.25rem solid #fc0;
+    border-radius: 0.25rem 0.25rem 0 0;
+    height: auto;
+    width: 100%;
+  }
+
+
+iframe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
