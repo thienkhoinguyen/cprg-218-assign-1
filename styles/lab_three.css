@@ -1,6 +1,32 @@
 iframe{
-  display: block;
   margin: 20px auto;
+  height: 25rem;
   width: 100%;
-  aspect-ratio: 16/9;
+  justify-content: center;
 }
+
+
+/* media break queries video */
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  iframe{
+      height: 18rem;
+  }
+  }
+  
+  /* Tablets */
+  @media screen and (min-width: 768px) and (max-width: 1199px){
+      iframe{
+        height: 32rem;
+  }
+}
+  
+  /* Desktop */
+  @media screen and (min-width:1200px){
+      iframe{
+       height: 42rem;
+      }
+  }
+  
+  
